@@ -1,11 +1,12 @@
 <script setup>
+const emptyIconData = ref([])
+
 </script>
 
 <template>
     <div>
-        <Icon name="fa6-solid:4" />
-        <Icon name="fa6-solid:1" />
-        <Icon name="fa6-solid:6" />
+
+        <Icon :name="emptyIconData.logo" />
     </div>
 </template>
 
